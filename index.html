@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>c a u g ht my e y e</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.9/fullpage.min.css"
+    />
+    <link rel="stylesheet" href="/style.css" />
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.9/fullpage.min.js"
+    ></script>
+  </head>
+  <body>
+    <div id="fullpage">
+      <div id="panel1" class="section">
+        <h2 class="panel-title">tara</h2>
+      </div>
+      <div id="panel2" class="section">
+        <h2 class="panel-title">emily</h2>
+      </div>
+      <div id="panel3" class="section">
+        <h2 class="panel-title">ini bali</h2>
+      </div>
+      <div id="panel4" class="section">
+        <h2 class="panel-title">kampong glam</h2>
+      </div>
+    </div>
+    <footer>
+      <p class="credits">
+        powered by
+        <a class="fancy-link" href="https://alvarotrigo.com/fullPage/#page4">fullPage.js</a>
+      </p>
+    </footer>
+    <script>
+      new fullpage("#fullpage", {
+        //options here
+        //autoScrolling: true,
+        //scrollHorizontally: true,
+        navigation: true,
+        sectionsColor: [
+          "#f2f2f2",
+          "#4BBFC3",
+          "#7BAABE",
+          "whitesmoke",
+          "#ccddff",
+        ],
+        anchors: ['tara', 'emily', 'inibali', 'kampong-glam'],
+        navigationTooltips: ['tara', 'emily', 'inibali', 'kampong-glam'],
+      });
+
+      //methods
+      //fullpage_api.setAllowScrolling(false);
+    </script>
+  </body>
+</html>

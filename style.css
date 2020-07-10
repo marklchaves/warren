@@ -1,0 +1,51 @@
+:root {
+  --light-accent: whitesmoke;
+  --dark-accent: #111111;
+}
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Courier New", Courier, monospace;
+  background-color: var(--dark-accent);
+}
+.fancy-link {
+ color: white;
+ border-bottom: 2px solid;
+}
+.panel-title {
+  font-size: 3rem;
+  letter-spacing: 0.3em;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+.section {
+  color: var(--light-accent);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#panel1 {
+  background-image: url(https://marklchaves.files.wordpress.com/2020/03/rina-jendela-warung-sepeda-motor-1-ed-1280w.jpg);
+}
+#panel2 {
+  background-image: url(https://marklchaves.files.wordpress.com/2017/02/chaves_emily_1024.jpg);
+}
+#panel3 {
+  background-image: url(https://marklchaves.files.wordpress.com/2020/03/bali-ngurah-rai-bypass-pejual-ayam-mainan-film-1280w.jpg);
+}
+#panel4 {
+  background-image: url(https://marklchaves.files.wordpress.com/2020/01/cewek-strideby-kampong-glam-ed-bw-wb.jpg);
+}
+footer {
+  display: grid;
+  place-items: center;
+  position: sticky;
+  bottom: 0;
+}
+.credits {
+  text-align: center;
+  width: 25%;
+  padding: 0.5% 0;
+  background-color: rgba(255,255,255,0.5);
+}
